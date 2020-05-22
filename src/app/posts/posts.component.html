@@ -1,0 +1,9 @@
+
+<div *ngIf="id">
+  <ul>
+    <li *ngFor="let post of postItems">
+      <p><strong>{{post.title}}</strong></p>
+      <p>{{post.body}}</p>
+    </li>
+  </ul>
+</div>
